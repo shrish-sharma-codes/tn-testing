@@ -384,7 +384,7 @@ input[type='file']::-webkit-file-upload-button {
   display: none;
 }
 input[type='file']::before {
-  content: 'Coming Soon!';
+  content: 'Choose a File!';
   display: inline-block;
   background-color: var(--background-primary);
   white-space: nowrap;
