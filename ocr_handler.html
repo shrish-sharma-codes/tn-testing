@@ -39,7 +39,7 @@
 		<h1>OCR</h1>
 		<section style="font-size: 1rem; padding: 20px 0px;">
 			<p>
-				<strong>Tip: You can edit the generated text.</strong>
+				<strong>Tip: You can edit the generated text, You can copy it too! &#x1F4D3;</strong>
 				<br /><br /><br />
 			</p>
 		</section>
@@ -134,23 +134,6 @@
 
 				</div>
 			</div>
-			<button id="button1" onclick="CopyToClipboard('result')">Click to copy</button>
-			<script>
-				function CopyToClipboard(containerid) {
-					if (document.selection) {
-						var range = document.body.createTextRange();
-						range.moveToElementText(document.getElementById(containerid));
-						range.select().createTextRange();
-						document.execCommand("copy");
-					} else if (window.getSelection) {
-						var range = document.createRange();
-						range.selectNode(document.getElementById(containerid));
-						window.getSelection().addRange(range);
-						document.execCommand("copy");
-						alert("Text has been copied, now paste in the text-area")
-					}
-				}
-			</script>
 		</section>
 	</main>
 
