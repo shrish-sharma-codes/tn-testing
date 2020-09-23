@@ -58,6 +58,18 @@ body.dark {
 
 }
 
+@font-face {
+
+  font-family: The Assignment-Inator;
+  src: url(../fonts/The\ Assignment-Inator.ttf);
+}
+
+@font-face {
+
+  font-family: Backbencher Best Pal;
+  src: url(../fonts/Backbencher\ Best\ Pal.ttf);
+}
+
 /* Default CSS Changes */
 * {
   box-sizing: border-box;
