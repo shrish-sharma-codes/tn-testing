@@ -37,3 +37,4 @@ context('Generate Image', () => {
   })
 
 })
+
